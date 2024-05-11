@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>REGISTER HERE</h1>
+        <form action="" id="SignUpForm" onsubmit="loginFunction()">
+            <div class="name">
+                <label for="firstName"></label>
+                <input type="text" placeholder="First Name" id="firstName"  />
+                <img src="images/user.png" alt="" />
+                <label for="lastName"></label>
+                <input type="text" placeholder="Last Name" id="lastName"  />
+                <img src="images/user.png" alt="" />
+            </div>
+
+            <div class="region">
+                <label for="countryId"></label>
+                <input type="text" placeholder="Country" id="countryId"  />
+                <img src="images/globe.png" alt="" />
+                <label for="stateId"></label>
+                <input type="text" placeholder="State" id="stateId"  />
+                <img src="images/globe.png" alt="" />
+            </div>
+
+            <div class="area">
+                <label for="cityId"></label>
+                <input type="text" placeholder="City" id="cityId"  />
+                <img src="images/location.png" alt="" />
+                <label for="postalCodeId"></label>
+                <input type="text" placeholder="PostalCode" id="postalCodeId"  />
+                <img src="images/target.png" alt="" />
+            </div>
+
+            <div class="gender-input-img">
+                <div class="gender">
+                    <h4>Gender:</h4>
+                    <div class="gender-box">
+                        <input type="radio" name="xyz" id="male" /><label for="male">Male</label>
+                        <input type="radio" name="xyz" id="female" /><label for="female">Female</label>
+                    </div>
+                </div>
+                <div class="MF">
+                    <img src="images/malefemale.png" alt="" />
+                </div>
+            </div>
+
+            <div class="contact" id="contact">
+                <label for="emailId"></label>
+                <input type="text" placeholder="E-mail" id="emailId"  />
+                <img src="images/mail.png" alt="" />
+                <label for="phoneNumberId"></label>
+                <input type="number" placeholder="Phone Number" id="phoneNumberId"  />
+                <img src="images/telephone.png" alt="" />
+            </div>
+            <div class="password" id="password">
+                <label for="PasswordId"></label>
+                <input type="password" placeholder="Password" id="PasswordId"  />
+                <img src="images/shield.png" alt="" />
+                <label for="Confirm_PasswordId"></label>
+                <input type="password" placeholder="Confirm Password" id="Confirm_PasswordId"  />
+                <img src="images/shield-check.png" alt="" />
+            </div>
+
+            <div class="read">
+                <label for="read_textId"></label>
+                <input type="checkbox" name="read_text" id="read_textId"  />I
+                have read and accept
+                <a href="#" class="T&C">TERMS AND CONDITION</a>
+            </div>
+
+            <div class="signup">
+                <input type="submit" />
+            </div>
+        </form>
+    </div>
+    <script src="register.js"></script>
+</body>
+
+</html>

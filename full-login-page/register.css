@@ -1,0 +1,278 @@
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 750px;
+    background: transparent;
+    border: 2px solid rgb(253 15 79);
+    color: white;
+    border-radius: 8px;
+    padding: 30px 40px;
+    backdrop-filter: blur(20px);
+}
+h1{
+    text-align: center;
+}
+.name{
+    display: flex;
+    position: relative;
+    background: transparent;
+    margin: 20px 0px;
+    align-items: center;
+    height: 50px;
+    width: 100%;    
+}
+.name input{
+    width: 50%;
+    height: 20px;
+    border-radius: 30px;
+    border: none;
+    padding: 20px 45px 20px 20px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.name input:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}
+.name img{
+    background: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 12px;
+    margin: 0px 10px;
+}
+.name img:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}
+.region{
+    display: flex;
+    position: relative;
+    background: transparent;
+    margin: 20px 0px;
+    align-items: center;
+    height: 50px;
+    width: 100%;    
+}
+.region input{
+    width: 50%;
+    height: 20px;
+    border-radius: 30px;
+    border: none;
+    padding: 20px 45px 20px 20px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.region input:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}
+.region img{
+    background: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 12px;
+    margin: 0px 10px;
+}
+.region img:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}
+.area{
+    display: flex;
+    position: relative;
+    background: transparent;
+    margin: 20px 0px;
+    align-items: center;
+    height: 50px;
+    width: 100%;    
+}
+.area input{
+    width: 50%;
+    height: 20px;
+    border-radius: 30px;
+    border: none;
+    padding: 20px 45px 20px 20px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.area input:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}
+.area img{
+    background: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 12px;
+    margin: 0px 10px;
+}
+.area img:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}
+.gender{
+    display: flex;
+    position: relative;
+    background: white;
+    margin: 20px 0px;
+    align-items: center;
+    height: 43px;
+    border: none;
+    border-radius: 30px;
+    width: 91%; 
+    margin-right: 10px;
+}
+.gender h4{
+margin: 10px;
+color: #757575;
+}
+
+.gender-box input{
+justify-content: space-evenly;
+margin-right: 10px;
+}
+.gender:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}
+.gender-box label{
+    color: #403f3f;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.MF img{
+    background: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 12px;
+    margin: 0px 10px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.MF img:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}
+
+.gender-input-img{
+    display: flex;
+}
+
+.contact{
+    display: flex;
+    position: relative;
+    background: transparent;
+    margin: 20px 0px;
+    align-items: center;
+    height: 50px;
+    width: 100%;    
+}
+.contact input{
+    width: 50%;
+    height: 20px;
+    border-radius: 30px;
+    border: none;
+    padding: 20px 45px 20px 20px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.contact input:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}
+.contact img{
+    background: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 12px;
+    margin: 0px 10px;
+}
+.contact img:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}
+.password{
+    display: flex;
+    position: relative;
+    background: transparent;
+    margin: 20px 0px;
+    align-items: center;
+    height: 50px;
+    width: 100%;    
+}
+
+.password input{
+    width: 50%;
+    height: 20px;
+    border-radius: 30px;
+    border: none;
+    padding: 20px 45px 20px 20px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.password input:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}
+.password img{
+    background: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 12px;
+    margin: 0px 10px;
+}
+.password img:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}
+.read{
+    text-align: center;
+    margin: 20px 0px;
+}
+.read input{
+    margin-right: 10px;
+}
+.read a{
+    text-decoration: underline;
+    color: white;
+    font-size: 13px;
+}
+.read a:hover{
+    color: rgb(253 15 79);
+}
+.signup{
+    text-align: center;
+}
+.signup input{
+        text-decoration: none;
+        background-color: #fff;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 60px;
+        color: #000;
+        margin-top: 30px;
+}
+.signup input:hover{
+    background: linear-gradient(to left,rgb(253 15 79),rgb(33 33 33));
+    color: #fff;
+}

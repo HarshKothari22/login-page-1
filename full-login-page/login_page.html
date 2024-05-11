@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-Page</title>
+    <link rel="stylesheet" href="login_page.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <form action="" id="logInForm" onsubmit="loginFunction()">
+            <h1>User Login</h1>
+            <div class="input-box">
+                <input type="text" name="Username" id="Username" placeholder="Username" required />
+                <img src="images/user.png" alt="user-image" />
+            </div>
+
+            <div class="password-box">
+                <input type="password" placeholder="password" id="password" name="password" required />
+                <img src="images/hidden.png" alt="hidden-password" />
+            </div>
+
+            <div class="remember-forget">
+                <label>
+                    <input type="checkbox" />
+                    Remember Me
+                </label>
+                <a href="forgot_password.html">Forget Password?</a>
+            </div>
+            <div class="button-box">
+                <input type="submit" class="btn" />
+            </div>
+
+            <div class="regester-link">
+                <p>
+                    Don't have an account? &nbsp;&nbsp;
+                    <a href="register.html">Register</a>
+                </p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
